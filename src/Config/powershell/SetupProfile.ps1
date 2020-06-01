@@ -11,7 +11,7 @@ if (!(Test-Path -Path PersonalDevGitHub:\\)){
 $AllUserAllHostProfile = "PersonalDevGitHub:\\powershellscripts\Profiles\Work\SSF-SC008\WindowsPowershell\profile.ps1";
 if (!(Test-Path -Path $Profile.AllUsersAllHosts)){
     if (!(Test-Path $AllUserAllHostProfile)){
-        if (!(Test-Path $env:SCOOP_GLOBAL){
+        if (!(Test-Path $env:SCOOP_GLOBAL)){
             $ScoopGit = (scoop which git);
 
         }
